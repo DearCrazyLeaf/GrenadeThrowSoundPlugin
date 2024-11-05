@@ -1,40 +1,37 @@
-# DeathSoundPlugin for Counter-Strike 2
+# GrenadeThrowSoundPlugin
 
 ## Overview
 
-**DeathSoundPlugin** is a custom plugin designed for **Counter-Strike 2** servers, aiming to enhance the gaming experience by playing a unique sound whenever a player is defeated. This plugin leverages the advanced features of Counter-Strike 2, built on the Source 2 engine, to deliver an immersive audio experience that adds a new dimension to the game.
+**GrenadeThrowSoundPlugin** is an engaging plugin for Counter-Strike 2 servers that adds a layer of auditory feedback when players throw grenades. This plugin enhances the gaming experience by providing custom sound effects for grenade throws, making the game more immersive and tactical.
 
 ## Key Features
 
-- **Customizable Death Sounds:** Server administrators can define a list of custom sounds that play upon a player's death, adding variety and excitement to each match.
-- **Random Sound Playback:** The plugin randomly selects a sound from the configured list, ensuring that each death event brings a fresh auditory surprise.
-- **Team Color Chat Messages:** Supports team-colored chat messages, improving the readability and team-oriented communication within the game.
-
-## Game Integration
-
-Counter-Strike 2, the latest installment in the iconic Counter-Strike series, has brought significant technological advancements to the table. As a free upgrade from CS:GO, it introduces:
-
-- **Revolutionary Dynamic Smoke Grenades:** Smoke grenades are now 3D dynamic objects that interact with the environment, responding to light, gunfire, and explosions.
-- **Unhindered by Refresh Rates:** The game's tickrate architecture ensures that your movements, shots, and throws are always consistent, regardless of the server's tickrate.
-- **Refined Maps and Visuals:** All maps have been rebuilt from the ground up, taking full advantage of the Source 2 engine's capabilities, offering clearer, brighter, and more detailed environments.
+- **Customizable Grenade Throw Sounds:** Administrators can define a list of custom sounds that play when a player throws a grenade, adding a new layer of realism and immersion to the game.
+- **Random Sound Playback:** The plugin randomly selects a sound from the configured list each time a grenade is thrown, ensuring variety and unpredictability in gameplay.
+- **Localized Text Support:** The plugin supports localized text, making it accessible to players around the world.
 
 ## Usage
 
-To utilize the DeathSoundPlugin in your Counter-Strike 2 server:
+To use the GrenadeThrowSoundPlugin, follow these steps:
 
-1. **Installation:** Download the plugin from the [GitHub repository](https://github.com/yourusername/DeathSoundPlugin) and place it in your server's plugin directory.
-2. **Configuration:** Configure the plugin by specifying the list of death sounds in the `DeathSoundPluginConfig` file.
-3. **Activation:** Once installed and configured, the plugin will automatically play a random death sound for each player death event.
+1. **Installation:** Download the plugin from the [GitHub repository](https://github.com/yourusername/GrenadeThrowSoundPlugin) and place it in your server's plugin directory.
+2. **Configuration:** Set up the plugin by configuring the `GrenadeThrowSounds` list in the plugin's configuration file with the paths to your custom sound files.
+3. **Activation:** The plugin automatically plays a random sound from the configured list each time a player throws a grenade.
 
 ## Requirements
 
-- [CounterStrikeSharp](https://github.com/roflmuffin/CounterStrikeSharp)
-- [MetaMod](https://www.metamodsource.net/downloads.php?branch=dev)
-- .NET 6.0 or higher
+- CounterStrikeSharp: [CounterStrikeSharp](https://github.com/roflmuffin/CounterStrikeSharp)
+- MetaMod: [MetaMod](https://www.metamodsource.net/downloads.php?branch=dev)
+
+## Installation
+
+1. Clone the repository or download the latest release from [GitHub](https://github.com/yourusername/GrenadeThrowSoundPlugin).
+2. Copy the plugin files to your server's plugin directory.
+3. Configure the plugin settings to match your server's requirements.
 
 ## Contribution and Support
 
-We welcome contributions from the community. If you have any ideas or encounter any issues, please submit a pull request or open an issue on the [GitHub repository](https://github.com/yourusername/DeathSoundPlugin). Your feedback is invaluable in helping us improve the plugin.
+We welcome contributions from the community. If you have any ideas or encounter any issues, please submit a pull request or open an issue on the [GitHub repository](https://github.com/yourusername/GrenadeThrowSoundPlugin). Your feedback is invaluable in helping us improve the plugin.
 
 ## License
 
@@ -42,4 +39,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Conclusion
 
-DeathSoundPlugin is a small but significant addition to the Counter-Strike 2 experience, offering a personalized touch to the game's audio landscape. With its seamless integration and easy configuration, it's a must-have for servers looking to enhance their player's gaming experience.
+GrenadeThrowSoundPlugin is a small but significant addition to the Counter-Strike 2 experience, offering a personalized touch to the game's audio landscape. With its seamless integration and easy configuration, it's a must-have for servers looking to enhance their player's gaming experience.
