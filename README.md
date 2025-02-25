@@ -1,37 +1,47 @@
-# GrenadeThrowSoundPlugin
+# GrenadeThrowSoundPlugin for Counter-Strike 2
 
 ## Overview
 
-**GrenadeThrowSoundPlugin** is an engaging plugin for Counter-Strike 2 servers that adds a layer of auditory feedback when players throw grenades. This plugin enhances the gaming experience by providing custom sound effects for grenade throws, making the game more immersive and tactical.
+**GrenadeThrowSoundPlugin** is a custom plugin for Counter-Strike 2 servers that enhances the gameplay experience by playing a custom sound whenever a player throws a grenade. This plugin adds an additional layer of immersion and excitement to the game, making grenade throws more impactful and noticeable to all players on the server.
 
 ## Key Features
 
-- **Customizable Grenade Throw Sounds:** Administrators can define a list of custom sounds that play when a player throws a grenade, adding a new layer of realism and immersion to the game.
-- **Random Sound Playback:** The plugin randomly selects a sound from the configured list each time a grenade is thrown, ensuring variety and unpredictability in gameplay.
-- **Localized Text Support:** The plugin supports localized text, making it accessible to players around the world.
+- **Custom Grenade Throw Sounds:** Automatically play a random sound from a predefined list when a player throws a grenade.
+- **Configurable Sound List:** Administrators can easily customize the list of grenade throw sounds via a configuration file.
+- **Localized Chat Messages:** The plugin supports localized chat messages, allowing for multilingual server communication.
+- **Team-Based Chat Colors:** Display chat messages with team-specific colors (e.g., blue for Counter-Terrorists, red for Terrorists).
+- **Event-Driven:** The plugin triggers sounds based on the `EventGrenadeThrown` event, ensuring seamless integration with the game's mechanics.
+
+## Identifiers
+
+- **ModuleName:** GrenadeThrowSoundPlugin  
+- **ModuleVersion:** 0.0.1  
+- **ModuleAuthor:** hlymcn  
+- **ModuleDescription:** Play a custom sound when a player throws a grenade.
 
 ## Usage
 
-To use the GrenadeThrowSoundPlugin, follow these steps:
+To utilize the GrenadeThrowSoundPlugin, follow these steps:
 
-1. **Installation:** Download the plugin from the [GitHub repository](https://github.com/yourusername/GrenadeThrowSoundPlugin) and place it in your server's plugin directory.
-2. **Configuration:** Set up the plugin by configuring the `GrenadeThrowSounds` list in the plugin's configuration file with the paths to your custom sound files.
-3. **Activation:** The plugin automatically plays a random sound from the configured list each time a player throws a grenade.
+1. **Installation:** Acquire the plugin from the [GitHub repository](https://github.com/hlymcn/GrenadeThrowSoundPlugin) and place it in your server's plugin directory.
+2. **Configuration:** Customize the plugin by editing the `GrenadeThrowSoundsConfig` file to add or modify grenade throw sounds.
+3. **Activation:** Upon activation, the plugin will automatically play a random grenade throw sound whenever a player throws a grenade and display a localized chat message.
 
 ## Requirements
 
-- CounterStrikeSharp: [CounterStrikeSharp](https://github.com/roflmuffin/CounterStrikeSharp)
+- CounterStrikeSharp: [CounterStrikeSharp](https://github.com/roflmuffin/CounterStrikeSharp)  
 - MetaMod: [MetaMod](https://www.metamodsource.net/downloads.php?branch=dev)
 
 ## Installation
 
-1. Clone the repository or download the latest release from [GitHub](https://github.com/yourusername/GrenadeThrowSoundPlugin).
-2. Copy the plugin files to your server's plugin directory.
-3. Configure the plugin settings to match your server's requirements.
+1. Clone the repository or download the latest release from [GitHub](https://github.com/hlymcn/GrenadeThrowSoundPlugin).
+2. Copy the plugin files to `...\addons\counterstrikesharp\plugins\GrenadeThrowSoundPlugin`.
+3. Edit the configuration file `...\addons\counterstrikesharp\configs\plugins\GrenadeThrowSoundPlugin\GrenadeThrowSoundsConfig.json` to set up your grenade throw sounds.
+4. Ensure your server meets the API version requirements and adjust settings as necessary.
 
 ## Contribution and Support
 
-We welcome contributions from the community. If you have any ideas or encounter any issues, please submit a pull request or open an issue on the [GitHub repository](https://github.com/yourusername/GrenadeThrowSoundPlugin). Your feedback is invaluable in helping us improve the plugin.
+We encourage community contributions. For suggestions or to report issues, please submit a pull request or open an issue on the [GitHub repository](https://github.com/hlymcn/GrenadeThrowSoundPlugin). Your input is crucial for the ongoing development of the plugin.
 
 ## License
 
@@ -39,4 +49,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Conclusion
 
-GrenadeThrowSoundPlugin is a small but significant addition to the Counter-Strike 2 experience, offering a personalized touch to the game's audio landscape. With its seamless integration and easy configuration, it's a must-have for servers looking to enhance their player's gaming experience.
+The GrenadeThrowSoundPlugin is a fun and engaging addition to Counter-Strike 2 servers, adding a unique auditory element to the game. Its easy setup and customizable features make it an excellent choice for server administrators looking to enhance their players' experience and create a more immersive environment.
