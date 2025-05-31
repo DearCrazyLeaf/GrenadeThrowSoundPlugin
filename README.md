@@ -46,7 +46,7 @@ For suggestions or to report issues, please submit a pull request or open an iss
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the GPL3.0 License - see the LICENSE file for details.
 
 ## Conclusion
 
